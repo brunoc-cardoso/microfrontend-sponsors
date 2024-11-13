@@ -41,7 +41,7 @@ module.exports = {
       name: 'sponsors',
       filename: 'remoteEntry.js',
       exposes: {
-        './Ads': './src/App'
+        './Sponsors': './src/App'
       },
       shared: {
         react: {
